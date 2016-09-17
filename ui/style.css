@@ -1,22 +1,18 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+#head{
+	width:800px;
+	height:130px;
+	margin-left:70px;
+	background:#FFD4D4;
 }
-
-.center {
-    text-align: center;
+#all{
+	margin-left:200px;
+	margin-right:200px;
+	background:#FFFFFF;
+	height:100000px;
 }
-
-.text-big {
-    font-size: 300%;
+#c{
+	text-align:left;
 }
-
-.bold {
-    font-weight: bold;
+#mar{
+	background:#4040D7;
 }
-
-.img-medium {
-    height: 200px;
-}
-
