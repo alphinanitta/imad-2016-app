@@ -16,13 +16,13 @@ var articles={
         'article-two' : { 
             title: 'Article Two',
             heading: 'Article Two',
-            content : ' This is the second article '
+            content : ' HI This is the second article '
         },
         
         'article-three' :{ 
             title: 'Article Three',
             heading: 'Article Three',
-            content : ' This is the third article '
+            content : ' HELLO This is the third article '
         }
 };
 
