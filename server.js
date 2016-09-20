@@ -13,7 +13,7 @@ var articles={
             content : ' This is the first article '
         },
         
-        'article-two ': { 
+        'article-two' : { 
             title: 'Article Two',
             heading: 'Article Two',
             content : ' This is the second article '
