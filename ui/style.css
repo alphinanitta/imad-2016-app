@@ -1,24 +1,4 @@
-#head{
-	width:800px;
-	height:130px;
-	margin-left:70px;
-	background:#FFD4D4;
+p{
+    font-family:chilanka;
+    font-size:20px;
 }
-#all{
-	margin-left:200px;
-	margin-right:200px;
-	background:#FFFFFF;
-	height:100000px;
-}
-#mar{
-	background:#4040D7;
-}
-#container{
-        color:grey;
-        font-family:sans-serif;
-        padding-top:60px;
-        padding-left:20px;
-        padding-right:20px;
-        background:blue;
-}    
-
