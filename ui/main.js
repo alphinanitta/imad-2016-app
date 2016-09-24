@@ -3,10 +3,15 @@ console.log('Loaded!');
 window.onload= function(){
 document.getElementById('main').innerHTML = 'New Value' ;
 
+var marginLeft=0;
 
-document.getElementById('madi').onclick = function(){
+function right(){
+    marginLeft=marginLeft+10;
     var img = document.getElementById('madi');
-    img.style.marginLeft = '120px';  
+    img.style.marginLeft = marginLeft+'px'; 
+}
+document.getElementById('madi').onclick = function(){
+    var interval = setInterval(right,100);
 };
 
 };
