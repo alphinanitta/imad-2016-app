@@ -6,12 +6,12 @@ document.getElementById('main').innerHTML = 'New Value' ;
 var marginLeft=0;
 
 function right(){
-    marginLeft=marginLeft+10;
+    marginLeft=marginLeft+5;
     var img = document.getElementById('madi');
     img.style.marginLeft = marginLeft+'px'; 
 }
 document.getElementById('madi').onclick = function(){
-    var interval = setInterval(right,100);
+    var interval = setInterval(right,50);
 };
 
 };
