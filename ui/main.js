@@ -11,7 +11,7 @@ function right(){
     img.style.marginLeft = marginLeft+'px'; 
 }
 document.getElementById('madi').onclick = function(){
-    var interval = setInterval(right,50);
+    var interval = setInterval(right,200);
 };
 
 };
