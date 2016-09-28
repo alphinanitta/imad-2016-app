@@ -11,6 +11,8 @@ function bu(){
         }
     }  
   };
+  request.open('GET','http://alphinanitta.imad.hasura-app.io/counter',true);
+  request.send(null);
 }
 
 
