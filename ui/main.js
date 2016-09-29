@@ -17,7 +17,7 @@ function bu(){
 
 var  iname = document.getElementByID('name').value;
 
-document.getElementById('submit_btn').onclick = function(){
+document.getElementById('submit').onclick = function(){
     
     
     var names = ['name1','name2','name3','ADP'];
