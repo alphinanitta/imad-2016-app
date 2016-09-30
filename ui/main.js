@@ -1,4 +1,4 @@
-var namein = document.getElementById('hi').value;
+var name = document.getElementById('hi').value;
 function bu(){
   var request = new XMLHttpRequest();
   
@@ -15,7 +15,7 @@ function bu(){
         }
     }  
   };
-  request.open('GET','http://alphinanitta.imad.hasura-app.io/submit-name?name='+ namein , true);
+  request.open('GET','http://alphinanitta.imad.hasura-app.io/submit-name?name='+ name +'' , true);
   request.send(null);
 }
 
