@@ -11,12 +11,13 @@ function bu(){
             for (var i = 0 ;i <  names.length ; i++){
                 list += '<li>' + names[i] + '</li>';
             }
-            (document.getElementById('one')).innerHTML = list ; 
+            (document.getElementById('ul')).innerHTML = list ; 
         }
     }  
   };
-  var name = document.getElementById('hi').value;
-  request.open('GET','http://alphinanitta.imad.hasura-app.io/submit-name?name='+ name +'' , true);
+  var name = document.getEl;ementById('nameInput').value;
+  var comment = document.getEl;ementById('comment').value;
+  request.open('GET','http://alphinanitta.imad.hasura-app.io/submit-name?name='+ name + '' & ''+ comment + '' , true);
   request.send(null);
 }
 
