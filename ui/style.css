@@ -1,4 +1,4 @@
-.head{
+#head{
 		font-family:chilanka;
 		font-size:75px;
 		text-align:center;
@@ -7,12 +7,12 @@
 		width:600px;
 		color:#0000DD;
 	}
-.side{
+#side{
 		height:2050px;
 		background:#A0A0D7;
 		display:block;
 		margin:0;
 	}
-.content{
+#content{
 		height:2000px;
 }
