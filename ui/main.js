@@ -9,7 +9,7 @@ function bu(){
             comments = JSON.parse(comments);
             var list='';
             for (var i = 0 ;i <  comments.length ; i++){
-                list += '<li>' + comments[i] + '</li><br/>';
+                list += '<li type="2">' + comments[i] + '</li><br/>';
             }
             (document.getElementById('ul')).innerHTML = list ; 
         }
