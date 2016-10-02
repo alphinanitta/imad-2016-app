@@ -5,19 +5,18 @@ function bu(){
   request.onreadystatechange   = function(){
     if(request.readyState === XMLHttpRequest.DONE){
         if(request.status===200){
-            var names = request.responseText;
-            names = JSON.parse(names);
+            var comments = request.responseText;
+            comments = JSON.parse(comments);
             var list='';
-            for (var i = 0 ;i <  names.length ; i++){
-                list += '<li>' + names[i] + '</li>';
+            for (var i = 0 ;i <  comments.length ; i++){
+                list += '<li>' + comments[i] + '</li>';
             }
             (document.getElementById('ul')).innerHTML = list ; 
         }
     }  
   };
-  var name = document.getElementById('nameInput').value;
   var comment = document.getElementById('comment').value;
-  request.open('GET','http://alphinanitta.imad.hasura-app.io/submit-name?name='+ name + '' & ''+ comment + '' , true);
+  request.open('GET','http://alphinanitta.imad.hasura-app.io/submit-name?name='+ comment + '' , true);
   request.send(null);
 }
 
