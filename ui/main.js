@@ -15,7 +15,7 @@ function bu(){
         }
     }  
   };
-  var comment = document.getElementById('comment').value;
+  var comment = document.getElementById('commen').value;
   request.open('GET','http://alphinanitta.imad.hasura-app.io/submit-name?name='+ comment + '' , true);
   request.send(null);
 }
