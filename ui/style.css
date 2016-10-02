@@ -1,8 +1,18 @@
-#main{
-    font-family:chilanka;
-    font-size:50px;
-}
-#mai{
-    font-family:chilanka;
-    font-size:50px;
+.head{
+		font-family:chilanka;
+		font-size:75px;
+		text-align:center;
+		background:#F7A0A0;
+		height:78px;
+		width:600px;
+		color:#0000DD;
+	}
+.side{
+		height:2050px;
+		background:#A0A0D7;
+		display:block;
+		margin:0;
+	}
+.content{
+		height:2000px;
 }
