@@ -28,11 +28,11 @@ function cu(){
         if(request.status===200){
             var names = request.responseText;
             names = JSON.parse(names);
-            var lis='';
+            var list='';
             for (var i = 0 ;i <  names.length ; i++){
-                lis += '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + comments[i] + '<br/>';
+                list += '<li>' + names[i] + '</li><br/>';
             }
-            (document.getElementById('ul')).innerHTML = lis ; 
+            (document.getElementById('ul')).innerHTML = list ; 
         }
     }  
   };
